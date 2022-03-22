@@ -93,7 +93,7 @@ class HomePage extends StatelessWidget {
           'Skip',
           style: TextStyle(fontSize: 10.0),
         ),
-        onPressed: () => Navigator.pushNamed(context, 'eFood'),
+        onPressed: () => Navigator.pushNamed(context, 'homeFood'),
       ),
     );
   }

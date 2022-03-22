@@ -1,9 +1,10 @@
 {
     "nombreApp" : "foodapp",
     "rutas" : [
+
         
         {
-            "ruta" : "eFood",
+            "ruta" : "homeFood",
             "icon" : "home",
             "texto": "Home"
         },

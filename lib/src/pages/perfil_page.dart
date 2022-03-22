@@ -16,7 +16,7 @@ class PerfilPage extends StatelessWidget {
           ),
           _lista(),
           SizedBox(
-            height: 25.0,
+            height: 5.0,
           ),
           _logout(context)
         ],
@@ -27,16 +27,16 @@ class PerfilPage extends StatelessWidget {
   Widget _detPer() {
     return Container(
       width: double.infinity,
-      height: 300.0,
+      height: 250.0,
       color: Colors.red,
       child: Center(
           child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           _imagen(
-              'https://e7.pngegg.com/pngimages/694/639/png-clipart-computer-icons-user-profile-female-symbol-miscellaneous-purple.png'),
+              'https://i.pinimg.com/564x/f9/d0/11/f9d011f255558e7f252417ed2a4be010.jpg'),
           Text(
-            'Akari Lucero Herrera Aguilar',
+            'José Guillermo Cima Tamay',
             style: TextStyle(
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
@@ -44,7 +44,7 @@ class PerfilPage extends StatelessWidget {
           ),
           SizedBox(height: 8.0),
           Text(
-            'Aqui va algo ',
+            'Información adicional.',
             style: TextStyle(color: Colors.white, fontSize: 15.0),
           )
         ],
